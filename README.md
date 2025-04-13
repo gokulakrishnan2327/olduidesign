@@ -1,70 +1,82 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🌐 Current - Landing Page (Old Design)
 
-## Available Scripts
+This project is a **React.js** web application that replicates the **"Old Design" landing page** from the Figma design provided. It uses **standard CSS** for styling and aims to match the layout, color scheme, spacing, and alignment of the original design as closely as possible.
 
-In the project directory, you can run:
+## 🔗 Live Demo
 
-### `npm start`
+View the deployed project here:  
+👉 [https://verdant-sprite-24600a.netlify.app/](https://verdant-sprite-24600a.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🎨 Figma Reference
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Design Source:  
+[Old Design - Figma](https://www.figma.com/design/PPXy1KkJovosPKrHm3shTg/Current---Landing-Page-UI-Design-Inspiration---Web-To-Figma--Community-?node-id=1-1608&t=ixrt3fnYjfifEkeU-0)
 
-### `npm test`
+## 🛠️ Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js** (Functional Components)
+- **Standard CSS**
+- **Responsive Design** (media queries and flexbox/grid layout)
+- **Netlify** for deployment
 
-### `npm run build`
+## 📁 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+src/
+│
+├── components/
+│   ├── Navbar.js
+│   ├── HeroSection.js
+│   ├── Features.js
+│   ├── Enterprise.js
+│   ├── WorkHappen.js
+│   ├── WeeklyDropComponent.js
+│   ├── EachWeek.js
+│   ├── Increase.js
+│   ├── Customer.js
+│   ├── TestimonialsSection.js
+│   ├── Footer.js
+│
+├── App.js
+├── App.css
+├── index.css
+├── styles.css
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 How to Run Locally
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone <your-repo-url>
+cd demo
+npm install
+npm start
+```
 
-### `npm run eject`
+App will be running on:  
+👉 `http://localhost:3000`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ✅ Features Implemented
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Pixel-perfect layout replication of Figma "Old Design"
+- Clean and reusable component structure
+- Responsive layout across desktop and mobile
+- Optimized for performance
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📌 Future Enhancements
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Improve accessibility (ARIA labels, contrast ratios)
+- Add animations and transitions
+- Optimize for Lighthouse performance scores
 
-## Learn More
+## 👨‍💻 Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Developed by Gokulakrishnan S  
+📧 Contact: gokulakrishnan2327@gmail.com  
+🌐 Portfolio: [https://gokulakrishnan.dev](https://gokulakrishnan.dev) *(if available)*
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Let me know if you'd like this file created and saved directly in your project folder or if you'd like a Tailwind version in the future!
