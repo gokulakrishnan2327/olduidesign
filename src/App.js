@@ -1,25 +1,43 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import { Menu, X, ArrowRight, Star, ChevronDown, ChevronUp } from 'lucide-react';
 import './App.css';
+import WorkHappen from './WorkHappen'
+import Navbar from './Navbar'
+import HeroSection from './HeroSection'
+import FeaturesSection from './FeaturesSection'
+import TestimonialsSection from './TestimonialsSection'
+import EachWeek from './EachWeek'
+import WeeklyDropComponent from './WeeklyDropComponent'
+import Features from './Features'
+import Enterprise from './Enterprise'
+
+import Customer from './Customer'
+import Increase from './Increase'
+import Footer from './Footer'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Navbar />
+      <HeroSection />
+      <WorkHappen/>
+      <FeaturesSection />
+      <EachWeek />
+      <WeeklyDropComponent></WeeklyDropComponent>
+      <Features/>
+      <Enterprise/>
+      <Customer/>
+      <Increase/>
+      <Footer />
     </div>
   );
 }
 
+
 export default App;
+
+
+
+
+
