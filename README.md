@@ -47,7 +47,7 @@ src/
 ## 🚀 How to Run Locally
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/gokulakrishnan2327/olduidesign.git
 cd demo
 npm install
 npm start
@@ -72,8 +72,9 @@ App will be running on:
 ## 👨‍💻 Author
 
 Developed by Gokulakrishnan S  
-📧 Contact: gokulakrishnan2327@gmail.com  
-🌐 Portfolio: [https://gokulakrishnan.dev](https://gokulakrishnan.dev) *(if available)*
+📧 Contact: gokulakrishn23gk@gmail.com  
+🌐 Portfolio: [https://gokulakrishnan.dev]( https://www.gokulakrish.netlify.app
+) 
 
 ---
 
